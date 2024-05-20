@@ -1,17 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 header{
     background-color: rgb(36, 40, 43);
     display: flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     justify-content: space-around;
     font-size: 28px;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 21px;
+    border: 5px solid rgb(18, 147, 212);
+    border-top-width: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 40px;
 }
 
-.headtext{
+
+header ul, a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    font-size: 20px;
     color: white;
 }
+
+li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.headtext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.contenido{
+    text-align: center;
+    background-image: url(assets/cabecera.jpg);
+    background-size: cover;
+    padding: 110px 195px ;
+    padding-bottom: 170px;
+}
+h1{
+    font-size: 53px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: white;
+    font-size: 23px;
+}
+
+.cabecera{
+    display: flex;
+    color: white;
+    background-color: rgb(36, 40, 43);
+    align-items: center;
+    justify-content: space-evenly;
+    height: 93px;
+}
+.btn{
+    background-color: rgb(232, 73, 29);
+    color: white;
+    font-size: 14px;
+    height: 41px;
+    width: 113px;
+}
+.inpt{
+    height: 28px;
+}
+
+.programas{
+    display: flex;
+    
+}
+.programa1, .programa2, .programa3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    color: black;
+    display: flex;
+    font-size: 14px;
+}
+.parrafo1, .parrafo2, .parrafo3{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.html, .css, .brush{
+    width: 80px;
+    height: 90px;
+} 
+/* Cambios */
