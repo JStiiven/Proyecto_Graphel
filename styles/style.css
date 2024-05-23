@@ -36,12 +36,12 @@ li {
 }
 .contenido{
     text-align: center;
-    background-image: url(assets/cabecera.jpg);
-    background-size: cover;
+    background-image: url(../assets/cabecera.jpg);
+    background-position-y: -400px;
     padding: 110px 195px ;
     padding-bottom: 170px;
 }
-h1{
+.principal{
     font-size: 53px;
     color: white;
     display: flex;
@@ -74,14 +74,25 @@ p{
 
 .programas{
     display: flex;
-    
+    justify-content: space-evenly;
+    padding: 30px;
+
 }
+.contenedor{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
 .programa1, .programa2, .programa3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
+    text-align: center;
 }
 h3{
+    justify-content: center;
     color: black;
     display: flex;
     font-size: 14px;
@@ -92,7 +103,50 @@ h3{
     text-align: center;
 }
 .html, .css, .brush{
+    margin-top: 30px;
     width: 80px;
     height: 90px;
-} 
-/* Cambios */
+}
+footer{
+    color: white;
+    background-color: rgb(18, 147, 212);
+    padding: 32px;
+    font-size: 13px;
+    text-align: center;
+}
+.text{
+    color: black;
+    padding-top: 25px;
+}
+.content{
+    width: 70%;
+    margin-left:  135px;
+}
+.nosotros{
+    padding-top: 20px;
+    width: 72.3%;
+}
+.texto{
+    margin-top: 18px;
+    background-color: rgb(53, 66, 74);
+    width: 70%;
+    padding: 16px;
+}
+.cafecito{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 72.3%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(53, 66, 74);
+    width: 32%;
+    padding: 35px 30px 30px 16px;
+    float: right;
+    margin: 0px;
+}
+.que{
+    margin-bottom: 22px;
+}
